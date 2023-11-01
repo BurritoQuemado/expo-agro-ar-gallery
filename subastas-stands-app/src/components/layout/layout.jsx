@@ -15,29 +15,16 @@ const navigation = [
       href: '/'
     },
     {
-      name: 'Galería', 
-      href: '/galeria-arte'
+      name: 'Expositores', 
+      href: '/expositores'
     },
-    {
-      name: 'Muro del Reconocimiento',
-      href: '/galeria'
-    },
-]
-
-const navigation_logged = [
-
-    {
-      name: "Cartera Cryptolicoins",
-      href: '/cartera-desc',
-      target: '_self'
-    }
 ]
 
 const footerNavigation = {
 
   legal: [
-    { name: 'Aviso de Privacidad', 
-      href: 'https://licon.com.mx/aviso-de-privacidad/' 
+    { name: 'Términos y condiciones', 
+      href: 'https://www.expoagrogto.com/terminos-y-condiciones/' 
     },
   ],
 }
@@ -45,8 +32,7 @@ const footerNavigation = {
 class Layout extends Component{
 
   render() {
-    const {logged_in, children, logout} = this.props;
-    const logged = logged_in;
+    const {children} = this.props;
     return (
       <div className="bg-white">
         <div className="relative overflow-hidden">
@@ -59,7 +45,7 @@ class Layout extends Component{
                 <div className="flex flex-1 items-center">
                   <div className="flex w-full items-center align-middle justify-between md:w-auto">
                     <Link to="/">
-                      <span className="sr-only">Wallet Cryptolicoins</span>
+                      <span className="sr-only">Galería Interactiva ExpoAgro 2023</span>
                       <img
                         className="h-6 w-auto lg:h-8"
                         src={Logo}
@@ -83,43 +69,7 @@ class Layout extends Component{
                         {item.name}
                       </Link>
                     ))}
-                    {
-                      logged ? (navigation_logged.map((item) => (
-                        <Link
-                          key={item.name}
-                          to={item.href}
-                          target={item.target}
-                          rel="nonreferrer noreferrer"
-                          className="text-base font-medium text-principal hover:text-gray-300"
-                        >
-                          {item.name}
-                        </Link>
-                      )))
-                      : null
-                    }
                   </div>
-                </div>
-                <div className="hidden md:flex md:items-center md:space-x-6">
-                  { logged ?  
-                     <Link
-                        to='/'
-                        onClick={logout}
-                        className="inline-flex items-center rounded-md border border-transparent bg-principal px-4 py-2 text-base font-medium text-white"
-                      >
-                     Salir
-                   </Link>
-                  : <>
-                    <Link to="/registro" className="text-base font-medium text-principal">
-                      Registrarse
-                    </Link>
-                    <Link
-                      to="/login"
-                      className="inline-flex items-center rounded-md border border-transparent bg-principal px-4 py-2 text-base font-medium text-white"
-                    >
-                      Ingresar
-                    </Link>
-                  </>}
-                  
                 </div>
               </nav>
               <hr className='mt-4 bg-principal w-full h-2 lg:h-4' />
@@ -164,49 +114,7 @@ class Layout extends Component{
                           {item.name}
                         </Link>
                       ))}
-                      {
-                        logged ? navigation_logged.map((item) => (
-                          <Link
-                            key={item.name}
-                            to={item.href}
-                            target={item.target}
-                            rel="nonreferrer noreferrer"
-                            className="block rounded-md px-3 py-2 text-base font-medium text-black"
-                          >
-                            {item.name}
-                          </Link>
-                        ))
-                        : null
-                      }
-                    </div>
-                    { logged ? <div className="mt-6 px-5">
-                      <Link
-                        to='/'
-                        onClick={logout}
-                        className="block w-full rounded-md bg-principal py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700"
-                      >
-                        Salir
-                      </Link>
-                    </div> : 
-                    <>
-                    <div className="mt-6 px-5">
-                      <Link
-                        to="/registro"
-                        className="block w-full rounded-md bg-principal py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700"
-                      >
-                        Registrarse
-                      </Link>
-                    </div>
-                    <div className="mt-6 px-5">
-                      <p className="text-center text-base font-medium text-gray-500">
-                        Ya tengo una cuenta.{' '}
-                        <Link to="/login" className="text-contraste hover:underline">
-                          Ingresar
-                        </Link>
-                      </p>
-                    </div>
-                    </> }
-                    
+                    </div>             
                   </div>
                 </div>
               </Popover.Panel>
@@ -224,8 +132,13 @@ class Layout extends Component{
                 <div className="py-4 sm:mx-auto sm:w-full sm:max-w-md">
                     <img
                         className="mx-auto h-32 w-auto"
-                        src={ LogoLicon }
-                        alt="logo_grupolicon"
+                        src={ LogoExpoAgro }
+                        alt="logo-expoagro"
+                    />
+                    <img
+                        className="mx-auto h-32 w-auto"
+                        src={ LogoOrganica }
+                        alt="logo-organica"
                     />
                 </div>
                 <div className="mt-0 grid grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
@@ -247,7 +160,7 @@ class Layout extends Component{
               </div>
               <div className="mt-12 border-t border-gray-200 py-8">
                 <p className="text-base text-gray-400 xl:text-center">
-                  &copy; 2023 2024 Polar Multimedia. Todos los derechos reservados.
+                  &copy; 2023 - 2024 Polar Multimedia. Todos los derechos reservados.
                 </p>
               </div>
             </div>
