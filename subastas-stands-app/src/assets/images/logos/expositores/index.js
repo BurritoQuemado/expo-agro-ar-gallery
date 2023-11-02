@@ -1,0 +1,1 @@
+export { default as LogoPlantlogic } from './logo-plantlogic.png';

@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { Popover, Transition } from '@headlessui/react'
-import Logo from '../../assets/images/logo.png'
-import LogoLicon from '../../assets/images/logo-licon.png'
+import LogoOrganica from '../../assets/images/logos/logo-organica-oscuro.png'
+import LogoExpo from '../../assets/images/logos/logo-agro-oscuro.png'
 import {
   Bars3Icon,
   XMarkIcon,
@@ -47,9 +47,9 @@ class Layout extends Component{
                     <Link to="/">
                       <span className="sr-only">Galería Interactiva ExpoAgro 2023</span>
                       <img
-                        className="h-6 w-auto lg:h-8"
-                        src={Logo}
-                        alt="logo-empresa"
+                        className="h-24 w-auto lg:h-8"
+                        src={LogoOrganica}
+                        alt="logo-organica"
                       />
                     </Link>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -90,8 +90,8 @@ class Layout extends Component{
                     <div>
                       <Link to='/'>
                       <img
-                        className="h-4 w-auto"
-                        src={Logo}
+                        className="h-24 w-auto"
+                        src={LogoOrganica}
                         alt="logo-empresa"
                       />
                       </Link>
@@ -128,11 +128,11 @@ class Layout extends Component{
               Footer
             </h2>
             <div className="mx-auto max-w-md px-4 sm:max-w-7xl sm:px-6 lg:px-8 lg:pt-10">
-              <div className="xl:grid xl:grid-cols-3 xl:gap-8 justify-center">
-                <div className="py-4 sm:mx-auto sm:w-full sm:max-w-md">
+              <div className="xl:grid xl:grid-cols-2 xl:gap-8 justify-center">
+                <div className="py-4 sm:mx-auto sm:w-full sm:max-w-md grid grid-cols-2">
                     <img
                         className="mx-auto h-32 w-auto"
-                        src={ LogoExpoAgro }
+                        src={ LogoExpo }
                         alt="logo-expoagro"
                     />
                     <img

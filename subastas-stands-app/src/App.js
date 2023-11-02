@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { 
   Home,
-  PeoplePage,
-  PersonPage
+  ExpositoresPage,
+  ExpositorPage
 } from './pages'
 import { Layout } from './components';
 function App () {
@@ -12,8 +12,8 @@ function App () {
     <Layout>
       <Routes>
         <Route path="/" element={ <Home /> } />
-        <Route path='/expositores' element={ <PeoplePage /> } />
-        <Route path='/expositor/:person_id' element={ <PersonPage /> } />
+        <Route path='/expositores' element={ <ExpositoresPage /> } />
+        <Route path='/expositor/:expositor_id' element={ <ExpositorPage /> } />
       </Routes>
     </Layout>
   );
