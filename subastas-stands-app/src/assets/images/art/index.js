@@ -6,13 +6,13 @@ const PlantlogicArt = [
         id: 1,
         name: 'El freserio',
         img: PlantlogicArt1,
-        link: 'https://www.google.com'
+        link: 'https://8th.io/be9wn'
     },
     {
         id: 2,
         name: 'Fresas duras de mata',
         img: PlantlogicArt2,
-        link: 'https://www.google.com'
+        link: 'https://8th.io/be9wn'
     },
 ]
 
