@@ -10,7 +10,8 @@ module.exports = {
         cyan: colors.cyan,
         principal: '#19BB3E',
         contraste: '#ecb00a',
-        resalto: '#69b189'
+        resalto: '#69b189',
+        nav_bg: '#383c41'
       },
     },
   },
