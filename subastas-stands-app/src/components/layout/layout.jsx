@@ -1,8 +1,10 @@
 import React, { Component, Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { Popover, Transition } from '@headlessui/react'
-import LogoOrganica from '../../assets/images/logos/logo-organica-oscuro.png'
+import LogoOrganicaClaro from '../../assets/images/logos/logo-organica-claro.png'
+import LogoOrganicaOscuro from '../../assets/images/logos/logo-organica-oscuro.png'
 import LogoExpo from '../../assets/images/logos/logo-agro-oscuro.png'
+import LogoPolar from '../../assets/images/logos/logo-polar-verde.png'
 import {
   Bars3Icon,
   XMarkIcon,
@@ -37,7 +39,7 @@ class Layout extends Component{
       <div className="bg-white">
         <div className="relative overflow-hidden">
           <Popover as="header" className="relative">
-            <div className="bg-white pt-6 pb-0">
+            <div className="bg-nav_bg pt-6 pb-0">
               <nav
                 className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
                 aria-label="Global"
@@ -45,10 +47,10 @@ class Layout extends Component{
                 <div className="flex flex-1 items-center">
                   <div className="flex w-full items-center align-middle justify-between md:w-auto">
                     <Link to="/">
-                      <span className="sr-only">Galería Interactiva ExpoAgro 2023</span>
+                      <span className="sr-only">Galería Interactiva Orgánica</span>
                       <img
                         className="h-24 w-auto lg:h-8"
-                        src={LogoOrganica}
+                        src={LogoOrganicaClaro}
                         alt="logo-organica"
                       />
                     </Link>
@@ -91,7 +93,7 @@ class Layout extends Component{
                       <Link to='/'>
                       <img
                         className="h-24 w-auto"
-                        src={LogoOrganica}
+                        src={LogoOrganicaOscuro}
                         alt="logo-empresa"
                       />
                       </Link>
@@ -129,15 +131,15 @@ class Layout extends Component{
             </h2>
             <div className="mx-auto max-w-md px-4 sm:max-w-7xl sm:px-6 lg:px-8 lg:pt-10">
               <div className="xl:grid xl:grid-cols-2 xl:gap-8 justify-center">
-                <div className="py-4 sm:mx-auto sm:w-full sm:max-w-md grid grid-cols-2">
+                <div className="py-4 sm:mx-auto sm:w-full sm:max-w-md grid grid-cols-2 justify-center items-center">
                     <img
-                        className="mx-auto h-32 w-auto"
+                        className="mx-auto h-16 "
                         src={ LogoExpo }
                         alt="logo-expoagro"
                     />
                     <img
-                        className="mx-auto h-32 w-auto"
-                        src={ LogoOrganica }
+                        className="mx-auto h-32"
+                        src={ LogoPolar }
                         alt="logo-organica"
                     />
                 </div>
