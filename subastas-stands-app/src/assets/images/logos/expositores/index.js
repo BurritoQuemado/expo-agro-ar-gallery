@@ -2,3 +2,17 @@ export { default as LogoPlantlogic } from './logo-plantlogic.png';
 export { default as LogoMSAgros } from './logo-msagros.png';
 export { default as LogoAgribest } from './logo-agribest.png';
 export { default as LogoBioteska } from './logo-bioteska.png';
+export { default as LogoRedSea } from './logo-redsea.png';
+export { default as LogoCorteva } from './logo-corteva.png';
+export { default as LogoAdvise } from './logo-advise.png';
+export { default as LogoNovagric } from './logo-novagric.png';
+export { default as LogoIrritec } from './logo-irritec.png';
+export { default as LogoPierce } from './logo-pierce.png';
+export { default as LogoBufalo } from './logo-bufalo.png';
+export { default as LogoTheClimateBox } from './logo-theclimatebox.png';
+export { default as LogoPrecisionPlanting } from './logo-precisionplanting.png';
+export { default as LogoProjar } from './logo-projar.png';
+export { default as LogoSyngenta } from './logo-syngenta.png';
+export { default as LogoDesico } from './logo-desico.png';
+export { default as LogoNousbo } from './logo-nousbo.png'
+export { default as LogoRotoplas } from './logo-rotoplas.png';
