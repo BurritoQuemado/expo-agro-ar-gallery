@@ -66,7 +66,7 @@ const expositores = [
         desc: `UN INSECTICIDA BOTÁNICO es un tipo de insecticida derivado de plantas. Están formulados a partir de sustancias químicas naturales de origen vegetal, por lo que son alternativas más seguras y ecológicas en comparación con los insecticidas sintéticos. Las plagas como la mosquita blanca, trips, araña roja y diversos pulgones son preocupaciones significativas en la agricultura y horticultura. Estos insectos no sólo dañan directamente las plantas al alimentarse de ellas, sino que también pueden actuar como vectores transmitiendo enfermedades virales. PirectForte®, de AgriBest® es un insecticida botánico diseñado para aplicaciones foliares, orientado al control de distintos insectos como la mosquita blanca, trips, araña roja y varios tipos de pulgones. Se destaca por su acción inmediata y un amplio rango y espectro de control para las principales plagas de insectos. Este insecticida contiene piretrinas orgánicas, lo que le confiere un amplio espectro de control sobre las principales plagas de insectos, actuando por contacto. Su mecanismo de acción se basa en una rápida absorción de sus ingredientes activos en la cutícula de los insectos, provocando espasmos, convulsiones, parálisis y, finalmente, la muerte del insecto. Además, tiene la capacidad de derribar y ahuyentar a la población que afecta a los cultivos.`,
         contact: `https://agribestmx.com/pirectforte/`,
         img: LogoAgribest,
-        art: AdviceArt
+        art: AgribestArt
     },
     {
         id: 4,
