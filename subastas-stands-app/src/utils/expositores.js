@@ -20,6 +20,8 @@ import {
     LogoFrirold
 } from '../assets/images/logos/expositores';
 
+import LogoPolar from '../assets/images/logos/logo-polar-verde.png';
+
 import { 
     PlantlogicArt,
     AdviceArt,
@@ -32,7 +34,13 @@ import {
     PierceArt,
     RedSeaArt,
     RotoplasArt,
-    SyngentaArt
+    SyngentaArt,
+    DesicoArt,
+    AgribestArt,
+    ClimateBoxArt,
+    NousboArt,
+    PolarArt,
+    PrecisionPlantingArt
 } from '../assets/images/art';
 
 const expositores = [
@@ -58,7 +66,7 @@ const expositores = [
         desc: `UN INSECTICIDA BOTÁNICO es un tipo de insecticida derivado de plantas. Están formulados a partir de sustancias químicas naturales de origen vegetal, por lo que son alternativas más seguras y ecológicas en comparación con los insecticidas sintéticos. Las plagas como la mosquita blanca, trips, araña roja y diversos pulgones son preocupaciones significativas en la agricultura y horticultura. Estos insectos no sólo dañan directamente las plantas al alimentarse de ellas, sino que también pueden actuar como vectores transmitiendo enfermedades virales. PirectForte®, de AgriBest® es un insecticida botánico diseñado para aplicaciones foliares, orientado al control de distintos insectos como la mosquita blanca, trips, araña roja y varios tipos de pulgones. Se destaca por su acción inmediata y un amplio rango y espectro de control para las principales plagas de insectos. Este insecticida contiene piretrinas orgánicas, lo que le confiere un amplio espectro de control sobre las principales plagas de insectos, actuando por contacto. Su mecanismo de acción se basa en una rápida absorción de sus ingredientes activos en la cutícula de los insectos, provocando espasmos, convulsiones, parálisis y, finalmente, la muerte del insecto. Además, tiene la capacidad de derribar y ahuyentar a la población que afecta a los cultivos.`,
         contact: `https://agribestmx.com/pirectforte/`,
         img: LogoAgribest,
-        art: []
+        art: AdviceArt
     },
     {
         id: 4,
@@ -292,7 +300,7 @@ const expositores = [
         `,
         contact: `https://theclimatebox.com/`,
         img: LogoTheClimateBox,
-        art: PlantlogicArt
+        art: ClimateBoxArt
     },
     {
         id: 13,
@@ -311,7 +319,7 @@ const expositores = [
         desc: `Uno de los mayores desafíos de los agricultores, es la incertidumbre que rodea a la ubicación y condiciones de las semillas en el suelo. Es esencial considerar la capacidad del suelo circundante para nutrir adecuadamente a las plántulas en desarrollo. La temperatura y la humedad del suelo son factores críticos, pero su monitoreo y control han sido un desafío constante en la agricultura. ¿Cuentan con la humedad y temperatura adecuadas para prosperar? ¿El surco que las rodea está libre de residuos que puedan obstaculizar su crecimiento?`,
         contact: `https://precisionplanting365-my.sharepoint.com/personal/npizzichini_precisionplanting_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fnpizzichini%5Fprecisionplanting%5Fcom%2FDocuments%2FDesktop%2FPrecision%20Planting%2020%5F20%202023%2D09%2D27%2018%2D14%2D46%2Emp4&fromShare=true&ga=1`,
         img: LogoPrecisionPlanting,
-        art: []
+        art: PrecisionPlantingArt
     },
     {
         id: 15,
@@ -331,7 +339,7 @@ const expositores = [
         `,
         contact: `https://getplantlogic.com/es/sistema-elevado-de-fresa/`,
         img: LogoDesico,
-        art: []
+        art: DesicoArt
     },
     {
         id: 17,
@@ -339,7 +347,7 @@ const expositores = [
         desc: `Enfrentando la monumental tarea de alimentar a cerca de 9.6 mil millones de personas para 2050, la industria agrícola se halla en la encrucijada de la innovación. La meta: escalar la producción alimentaria manteniendo un uso eficaz de los recursos. Hi-Cote® emerge como una solución, permitiendo una nutrición de precisión que maximiza la eficiencia de los fertilizantes. Su tecnología de liberación gradual se sincroniza con las demandas de crecimiento de los cultivos, minimizando la pérdida de nutrientes y, consecuentemente, la contaminación ambiental. Nousbo Hi-Cote® no solo promete rendimientos más altos con menos insumos, sino que también invita a los agricultores a ser partícipes activos en la transición hacia una agricultura sostenible, marcando así un hito en la evolución de las prácticas agrícolas modernas.`,
         contact: `https://getplantlogic.com/es/sistema-elevado-de-fresa/`,
         img: LogoNousbo,
-        art: []
+        art: NousboArt
     },
     {
         id: 18,
@@ -411,6 +419,14 @@ const expositores = [
         contact: `https://directorio.expoagrogto.com/empresa/ingenieria-y-proyectos-frirold/`,
         img: LogoFrirold,
         art: []
+    },
+    {
+        id: 21,
+        name: `Polar Multimedia`,
+        desc: `En Polar Multimedia nos atrevemos a la creatividad. Creamos experiencias únicas para cada necesidad de comunicación de nuestros clientes de diversos sectores. Producimos presencia de marca en ambientes creativos, desde congresos y stands hasta campañas electrónicas y márketing de guerrilla. Orgánica es solo una muestra de donde nos lleva la creatividad cuando las industrias se atreven a diferenciarse. Juntos nos CREATREVIMOS. Y para muestra, una semilla que se convirtió en botó`,
+        contact: `https://www.polarmultimedia.com/`,
+        img: LogoPolar,
+        art: PolarArt
     },
 ]
 
