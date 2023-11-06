@@ -16,3 +16,4 @@ export { default as LogoSyngenta } from './logo-syngenta.png';
 export { default as LogoDesico } from './logo-desico.png';
 export { default as LogoNousbo } from './logo-nousbo.png'
 export { default as LogoRotoplas } from './logo-rotoplas.png';
+export { default as LogoFrirold } from './logo-frirold.png';
