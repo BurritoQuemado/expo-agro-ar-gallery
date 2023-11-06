@@ -31,6 +31,16 @@ function ExpositorDisplay ({ expositor_id }) {
             <div className='py-4'>
                 <ArtDisplay arte={display_expositor.art} />
             </div>
+            <div className="mt-5 mb-5 grid grid-cols-1 items-center justify-center gap-6">
+                <Link
+                to={'/expositores'}
+                target='_self'
+                rel="nonreferrer noreferrer"
+                className="rounded-md bg-resalto px-3.5 py-2.5 mx-20 text-sm text-center font-semibold text-white shadow-sm hover:bg-principal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-principal"
+                >
+                    Regresar
+                </Link>
+            </div>
         </div>
     )
 }
