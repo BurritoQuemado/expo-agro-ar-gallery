@@ -4,8 +4,6 @@ import AdviceArt1 from './advice01.png';
 import AdviceArt2 from './advice02.png';
 import AgribestArt1 from './agribest01.jpg';
 import AdviceArt3 from './advice03.png';
-import BioteksaArt1 from './bioteksa01.png';
-import BioteksaArt2 from './bioteksa02.png';
 import BioteksaArt3 from './bioteksa03.png';
 import BufaloArt1 from './bufalo01.png';
 import BufaloArt2 from './bufalo02.png';
@@ -98,18 +96,6 @@ const AdviceArt = [
 ]
 
 const BioteksaArt = [
-    {
-        id: 1,
-        name: 'Bioteksa1',
-        img: BioteksaArt1,
-        link: BIOTEKSA_URL
-    },
-    {
-        id: 2,
-        name: 'Bioteksa2',
-        img: BioteksaArt2,
-        link: BIOTEKSA_URL
-    },
     {
         id: 3,
         name: 'Bioteksa3',
