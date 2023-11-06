@@ -245,7 +245,7 @@ const PierceArt = [
     {
         id: 2,
         name: 'Pierce2',
-        img: PierceArt1,
+        img: PierceArt2,
         link: PIERCE_URL
     },
 ]
