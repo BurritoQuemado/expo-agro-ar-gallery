@@ -3,13 +3,13 @@ function ExpositorArtListItem({ item}) {
 
     return (            
         
-        <div>
+        <div className="shadow-md border rounded-lg">
             <Link 
                 to={item.link}
                 target='_blank'
                 rel="nonreferrer noreferrer"
             >
-                <div className=" w-full overflow-hidden">
+                <div className=" w-full overflow-hidden shadow-md border rounded-lg">
                 <img
                     src={item.img}
                     alt={item.name}

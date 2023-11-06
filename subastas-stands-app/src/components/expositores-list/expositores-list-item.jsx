@@ -3,7 +3,7 @@ function ListItem({ item}) {
 
     return (            
         
-        <div>
+        <div className="shadow-md border rounded-lg">
             <Link 
                 to={'/expositor/'+item.id}
             >
