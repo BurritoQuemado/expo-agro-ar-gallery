@@ -3,7 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import { 
   Home,
   ExpositoresPage,
-  ExpositorPage
+  ExpositorPage,
+  OrganicaPage
 } from './pages'
 import { Layout } from './components';
 function App () {
@@ -13,6 +14,7 @@ function App () {
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path='/expositores' element={ <ExpositoresPage /> } />
+        <Route path='/organica' element={ <OrganicaPage /> } />
         <Route path='/expositor/:expositor_id' element={ <ExpositorPage /> } />
       </Routes>
     </Layout>

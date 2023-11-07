@@ -17,6 +17,10 @@ const navigation = [
       href: '/'
     },
     {
+      name: '¿Qué es Orgánica?', 
+      href: '/organica'
+    },
+    {
       name: 'Expositores', 
       href: '/expositores'
     },
